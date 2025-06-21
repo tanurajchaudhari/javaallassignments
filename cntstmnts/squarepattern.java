@@ -317,7 +317,36 @@ class eight{
 //       3    4    9                 3    4     9   8
 //       2    6    6                 2    6     6   12
 //                                   3    4     9   8
+import java.io.*;
+class nine{
 
+        public static void main(String[]args)throws IOException{
+
+                BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+                System.out.println("Enter the number of rows :- ");
+                int N=Integer.parseInt(br.readLine());
+
+                for(int i= 1;i<=N;i++){
+		
+			for(int j=1;j<=N;j++){
+			
+			
+				if((i+j)%2==0){
+				
+					System.out.print(2*j+"\t");
+				
+				}else{
+				
+					System.out.print(3*j+"\t");
+				}
+			}
+			System.out.println();
+		
+		}
+                
+               
+        }
+}
 
 
 //Q.10) ROWS =3                           ROWS =4
