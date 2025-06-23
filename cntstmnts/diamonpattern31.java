@@ -445,7 +445,7 @@ class nine{
 //                   1   A   1
 //                       1
 //
-//
+/*
 import java.io.*;
 class ten{
         public static void main(String[]args)throws IOException{
@@ -505,3 +505,5 @@ class ten{
                 }
         }
 }
+*/
+
